@@ -1,0 +1,33 @@
+{
+  "name": "agent-team-java",
+  "version": "1.0.0",
+  "description": "A pi coding agent extension providing 28+1 AI software engineering agents for Java enterprise projects, with Manager orchestration across 10 delivery phases.",
+  "keywords": [
+    "pi-package",
+    "pi-extension",
+    "agent-team",
+    "java",
+    "software-engineering",
+    "ai-agents"
+  ],
+  "license": "MIT",
+  "author": "hexstudio",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "pi": {
+    "extensions": ["./extensions"]
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*",
+    "@earendil-works/pi-ai": "*",
+    "typebox": "*"
+  },
+  "files": [
+    "extensions/",
+    "agents/",
+    "README.md",
+    "DOCUMENTATION.md"
+  ]
+}
